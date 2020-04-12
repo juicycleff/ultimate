@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUST_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/core/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/core/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/core/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/repo-orm/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/repo-orm/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/repo-orm/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/repo-orm/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ultimate/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ultimate/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ultimate/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ultimate/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ultimate-cli/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ultimate-cli/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ultimate-cli/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ultimate-cli/benches" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/core/target" />
+      <excludeFolder url="file://$MODULE_DIR$/micro/target" />
+      <excludeFolder url="file://$MODULE_DIR$/repo-orm/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ultimate-cli/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ultimate/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

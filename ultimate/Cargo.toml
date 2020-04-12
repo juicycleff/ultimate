@@ -1,0 +1,26 @@
+[package]
+name = "ultimate"
+version = "0.1.0"
+authors = ["Rex Isaac Raphael <rex.raphael@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# messaging broker
+nats = "0.3.3"
+
+# registry
+consul = "0.3.0"
+
+# proto and proto gens
+protobuf = { version = "2", features = ["with-bytes"] }
+protobuf-codegen = "2.13.0"
+grpcio-compiler = "0.5.0"
+prost = "0.6"
+prost-types = "0.6"
+
+# transport
+hyper = "0.13"
+tokio = "0.2.17"

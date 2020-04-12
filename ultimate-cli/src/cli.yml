@@ -1,0 +1,52 @@
+name: "ultimate"
+version: "0.1.0"
+author: "Rex Isaac Raphael <rex.raphael@outlook.com>"
+about: ultimate cool cli
+args:
+  - config:
+      short: c
+      long: config
+      value_name: FILE
+      help: Sets a custom config file
+      takes_value: true
+  - INPUT:
+      help: Sets the input file to use
+      required: true
+      index: 1
+  - verbose:
+      short: v
+      multiple: true
+      help: Sets the level of verbosity
+subcommands:
+  - create:
+      about: create new ultimate project project
+      version: "0.1.0"
+      takes_value: true
+      args:
+        - INPUT:
+            help: Sets the service name you are creating
+            required: true
+            index: 1
+        - srv:
+            short: s
+            long: srv
+            help: create services project
+        - func:
+            short: f
+            long: func
+            help: create function project
+        - api:
+            short: a
+            long: api
+            help: create rest api project
+        - graph:
+            short: g
+            long: graph
+            help: create graphql api project
+  - start:
+      about: start ultimate server
+      version: "0.1.0"
+      args:
+        - dev:
+            short: d
+            help: start development server
